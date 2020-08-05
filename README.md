@@ -4,8 +4,11 @@
 
 ## Install
 
-You can copy path both inside `$HOME/.local/bin:\`
-or somewhere in your `$PATH`
+Copy both scripts inside your `$HOME/.local/bin:\` or somewhere else into your `$PATH`
+
+If you use zsh, or any typical shell with normal shell syntax, you can usually just throw `source ~/.roll` into your zshrc or other shell config and the script will work just as well for them.
+
+make i executable with
 
 ```shell
 chomd -x roll
@@ -14,31 +17,31 @@ chmod -x dragon
 
 ## Prerequisite
 
-- Your terminal must be [NerdFonts](https://www.nerdfonts.com/#home) friendly
+- Work best with a terminale [NerdFonts](https://www.nerdfonts.com/#home) friendly
 
 ## Usage
 
-Open you terminal and enter your single or complex roll,
-the dragon rider will be sumon in case of a _natural 20_
+Open you terminal and enter your single or complex roll with the `roll`
+commande, and accept your faith. The dragon rider will be sumon in case of a _natural 20_
 
 ```bash
  $  ➜ roll d20
 
 Rolling  d20 icosahedron
-     﫩 dice roll = 1
-sum total = 1
+     﫩 dice roll = 14
+sum total = 14
 ```
 
 ```bash
  $  ➜ roll 2d4 d20
 
 Rolling 2 d4 tetrahedron
-     﫪 dice roll = 3
-     﫪 dice roll = 3
-sum total = 6
+     﫪 dice roll = 4
+     﫪 dice roll = 1
+sum total = 5
 
 
 Rolling  d20 icosahedron
-     﫩 dice roll = 9
-sum total = 9
+     﫩 dice roll = 15
+sum total = 15
 ```
